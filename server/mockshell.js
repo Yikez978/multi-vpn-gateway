@@ -30,7 +30,7 @@ function getVpnConfigs(){
     {name: "norway4", destination: "Norway", vpnconfig: "configfile5.ovpn"}];
 }
 
-function connectTunnel(tun, config){
+function connectTunnel(tun, config, socket){
 	console.log("Connecting " + tun + " using " + config);
 }
 
