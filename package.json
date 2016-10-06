@@ -5,6 +5,7 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "i18n-iso-countries": "^1.6.0",
     "meteor-node-stubs": "~0.2.0"
   }
 }

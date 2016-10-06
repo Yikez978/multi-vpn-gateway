@@ -24,3 +24,5 @@ materialize:materialize@=0.97.6
 matb33:collection-hooks
 kadira:flow-router
 kadira:blaze-layout
+practicalmeteor:mocha
+dispatch:mocha
