@@ -1,0 +1,8 @@
+
+* Shell: Start tunnel
+	- set state connecting
+	- spawn mgmt telnet client
+* Shell: Set client GW
+* Shell: Unset client GW
+* Shell: Update client list (cron)
+	- get docker client list

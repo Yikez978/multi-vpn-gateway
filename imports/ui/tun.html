@@ -1,0 +1,22 @@
+<template name="tun">
+
+  <div class="row">
+	  <div class="col s6 m5">
+	  	<span class="flow-text">{{name}}: {{state}}</span>
+	  </div>
+
+	  <div class="col s6 m2">
+	  <input type="checkbox" checked="{{enabled}}" id="enable_check_{{_id}}" class="toggle-checked" /><label for="enable_check_{{_id}}">enable</label>
+	  </div>
+
+	  <div class="col s12 m5">
+		  <select class="" {{materializeSelect}}>
+		  		<option value="" disabled selected="">Choose destination</option>
+		      {{#each d in destinations}}
+		        <option value="{{d.vpnconfig}}" {{isSelected vpnconfig d.vpnconfig}}>{{d.name}} ({{d.destination}})</option>
+		      {{/each}}
+		  </select>
+	  </div>
+  </div>
+
+</template>

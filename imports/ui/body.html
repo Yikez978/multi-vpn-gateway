@@ -1,0 +1,22 @@
+
+<template name="bodyTemplate">
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo left">Logo</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="/tunnels">Tunnels</a></li>
+        <li><a href="/clients">Clients</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+  <div class="container">
+    {{>Template.dynamic template=content}}
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</template>
